@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "your_namespace:hostile_entity",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/hostile"
+      },
+      "geometry": {
+        "default": "geometry.hostile"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#c0392b",
+        "overlay_color": "#e74c3c"
+      }
+    }
+  }
+}

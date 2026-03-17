@@ -1,0 +1,8 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/terrain_texture",
+    "atlas_tile": "name of yout texture from terrain_texture",
+    "frames": [ 0, 1, 2, 3],
+    "ticks_per_frame": 20
+  }
+]

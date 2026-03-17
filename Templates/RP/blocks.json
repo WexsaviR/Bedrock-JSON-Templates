@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.0",
+  "your_namespace:your_block": {
+    "sound": "wood", // your sound or vanilla sound
+    "textures": "your_texture"
+  }
+}

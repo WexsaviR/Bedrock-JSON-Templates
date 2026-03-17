@@ -1,0 +1,88 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "your_namespace:tameable_entity",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:tameable": {
+        "components": {
+          "minecraft:tameable": {
+            "probability": 0.33,
+            "tame_items": ["minecraft:bone"],
+            "tame_event": {
+              "event": "on_tame",
+              "target": "self"
+            }
+          }
+        }
+      },
+      "minecraft:tamed": {
+        "components": {
+          "minecraft:is_tamed": {},
+          "minecraft:behavior.follow_owner": {
+            "priority": 3,
+            "speed_multiplier": 1.0,
+            "start_distance": 10,
+            "stop_distance": 2
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": false
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 5,
+        "speed_multiplier": 0.8
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 8.0,
+        "probability": 0.02
+      },
+      "minecraft:tameable": {
+        "probability": 0.33,
+        "tame_items": ["minecraft:bone"],
+        "tame_event": {
+          "event": "on_tame",
+          "target": "self"
+        }
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {
+          "min_distance": 128,
+          "max_distance": 256
+        }
+      }
+    },
+    "events": {
+      "on_tame": {
+        "add": {
+          "component_groups": ["minecraft:tamed"]
+        }
+      }
+    }
+  }
+}

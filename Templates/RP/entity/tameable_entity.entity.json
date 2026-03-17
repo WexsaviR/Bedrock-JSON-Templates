@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "your_namespace:tameable_entity",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/tameable",
+        "tamed": "textures/entity/tameable_tamed"
+      },
+      "geometry": {
+        "default": "geometry.tameable"
+      },
+      "render_controllers": ["controller.render.tameable"],
+      "spawn_egg": {
+        "base_color": "#f1c40f",
+        "overlay_color": "#e67e22"
+      }
+    }
+  }
+}

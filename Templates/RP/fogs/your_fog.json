@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "your_namespace:fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.8,
+        "fog_end": 1.0,
+        "fog_color": "#AAAAAA",
+        "render_distance_type": "fixed"
+      },
+      "water": {
+        "fog_start": 10.0,
+        "fog_end": 40.0,
+        "fog_color": "#0677ce",
+        "render_distance_type": "fixed"
+      },
+      "lava": {
+        "fog_start": 2.0,
+        "fog_end": 5.0,
+        "fog_color": "#991A00",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

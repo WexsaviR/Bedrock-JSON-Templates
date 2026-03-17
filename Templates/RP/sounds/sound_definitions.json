@@ -1,0 +1,9 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "your_sound": {
+      "category": "neutral",
+      "sounds": ["sounds/your_sound"]
+    }
+  }
+}

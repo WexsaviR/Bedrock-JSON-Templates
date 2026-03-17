@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "your_namespace:mechanical_entity",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/mechanical"
+      },
+      "geometry": {
+        "default": "geometry.mechanical"
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#7f8c8d",
+        "overlay_color": "#34495e"
+      }
+    }
+  }
+}
