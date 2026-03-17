@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "your_namespace:block_three_sides",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:flammable": {
+        "flame_odds": 1,
+        "burn_odds": 1
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "side_texture",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "top_texture",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "bottom_texture",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:loot": "loot_tables/your_loot_table.json"
+    }
+  }
+}

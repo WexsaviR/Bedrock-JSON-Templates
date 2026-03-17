@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Your BP Name",
+    "description": "Description here",
+    "uuid": "generated-uuid-here",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "generated-uuidV4-here",
+      "version": [1, 0, 0]
+    }
+  ]
+}

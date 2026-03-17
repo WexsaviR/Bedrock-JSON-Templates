@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "your_namespace:simple_item",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "your_texture"
+      },
+      "minecraft:display_name": {
+        "value": "Simple Item"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

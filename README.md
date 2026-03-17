@@ -1,14 +1,14 @@
-# Bedrock JSON Templates
+# Bedrock JSON and JS Templates
 
-Ready-to-use JSON templates for Minecraft Bedrock Edition items and blocks.
+Ready-to-use JSON and JS templates for Minecraft Bedrock Edition.
 
 ---
 
 ## What's inside
 
 **Items:**
-- Simple items
-- Food with effects
+- Simple item
+- Food
 - Tools (pickaxes, swords)
 - Armor
 - Throwables
@@ -17,22 +17,21 @@ Ready-to-use JSON templates for Minecraft Bedrock Edition items and blocks.
 - Basic blocks
 - Transparent (glass-like)
 - Light-emitting
-- Doors & stairs
 
-## Quick start
-
-1. Grab a template from `/items` or `/blocks`
-2. Replace `your_namespace` with your id
-3. Update texture names
-4. Drop into your addon folder
-
+**Scripts:**
+## Server-UI
+- ActionFormData
+- ModalFormData
+- MessageFormData
+## Server
+- Main facilities — world, system, player 
 ---
 
 ## Что внутри
 
 **Предметы:**
-- Простые предметы
-- Еда с эффектами
+- Простой предмет
+- Еда
 - Инструменты (кирки, мечи)
 - Броня
 - Метательные предметы
@@ -41,11 +40,11 @@ Ready-to-use JSON templates for Minecraft Bedrock Edition items and blocks.
 - Простые блоки
 - Прозрачные (как стекло)
 - Светящиеся
-- Двери и ступеньки
 
-## Быстрый старт
-
-1. Бери шаблон из `/items` или `/blocks`
-2. Меняй `your_namespace` на свой идентификатор
-3. Меняй названия текстур
-4. Кидай в папку с аддоном
+**Скрипты:**
+## Server-UI
+- ActionFormData
+- ModalFormData
+- MessageFormData
+## Server
+- Основные объекты — world, system, player
